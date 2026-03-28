@@ -1,0 +1,50 @@
+Netflix Data Analysis Project Report
+1. Project Overview
+
+This project analyzes Netflix’s movies and TV shows dataset to uncover trends and insights about audience preferences, ratings, genres, release years, and global distribution. The goal is to understand which content performs best, how viewership varies across countries, and to provide actionable insights for content strategy.
+
+2. Dataset
+Source: Netflix dataset (netflix_titles.csv)
+Number of records: ~8,000 movies and TV shows
+Columns include:
+show_id – Unique ID
+type – Movie / TV Show
+title – Name of the show
+director – Director’s name
+cast – Main actors
+country – Country of production
+date_added – Added on Netflix
+release_year – Year of release
+rating – Audience rating
+duration – Duration in minutes / seasons
+listed_in – Genre
+3. Tools Used
+Python – Data cleaning, analysis, and visualization (Pandas, Matplotlib, Seaborn)
+Power BI – Interactive dashboards and visual analytics
+Jupyter Notebook – For step-by-step analysis and insights
+4. Methodology
+Data Cleaning
+Handle missing values and duplicates
+Standardize genre and country fields
+Exploratory Data Analysis (EDA)
+Analyze distribution of content by type, genre, country, and year
+Study rating trends across content types
+Visualize popular genres and countries producing most content
+Visualization & Insights
+Create bar charts, pie charts, and heatmaps
+Build a Power BI dashboard for interactive exploration
+5. Key Insights
+Movies outnumber TV shows on Netflix, but TV shows have more frequent additions in recent years.
+Popular genres include Dramas, Comedies, and Documentaries.
+The United States, India, and the UK are the top content producers.
+Viewer ratings show most content falls in PG, TV-MA, or TV-14 categories.
+Content addition spikes in summer and year-end months, likely to capture holiday viewership.
+6. Recommendations
+Focus on high-performing genres in local content production.
+Consider adding more family-friendly content for broader audience reach.
+Use seasonal trends for marketing and content release strategies.
+7. Dashboard Highlights
+Genre Popularity Chart: Top 10 genres by number of titles
+Content Type Over Time: Movies vs TV Shows yearly trend
+Country Distribution: Heatmap of titles by production country
+Rating Analysis: Average ratings by type and genre
